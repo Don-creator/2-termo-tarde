@@ -26,3 +26,17 @@ C:\Users\49390062802\Desktop\Tarde\Sprint2-webapi\senai.filmes.webapi\WebApplica
 C:\Users\49390062802\Desktop\Tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.dll
 C:\Users\49390062802\Desktop\Tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.pdb
 C:\Users\49390062802\Desktop\Tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorTargetAssemblyInfo.cache
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.deps.json
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.json
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.dev.json
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.dll
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.pdb
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csprojAssemblyReference.cache
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfo.cs
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorTargetAssemblyInfo.cache
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.dll
+C:\Users\49390062802\Desktop\Tarde\2-termo-tarde\Sprint2-webapi\senai.filmes.webapi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.pdb

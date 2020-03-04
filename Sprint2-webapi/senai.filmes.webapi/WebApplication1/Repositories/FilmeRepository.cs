@@ -32,14 +32,15 @@ namespace senai.Filmes.WebApi.Repositories
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
                 // Declara a query que será executada
-                string queryUpdate = "UPDATE filme SET Nome = @Nome WHERE Idfilme = @ID";
+                string queryUpdate = "UPDATE Filmes SET Titulo = @Titulo WHERE IdFilme = @ID";
 
                 // Declara o SqlCommand passando o comando a ser executado e a conexão
                 using (SqlCommand cmd = new SqlCommand(queryUpdate, con))
                 {
                     // Passa os valores dos parâmetros
                     cmd.Parameters.AddWithValue("@ID", filme.IdFilme);
-                    cmd.Parameters.AddWithValue("@Nome", filme.Titulo);
+                    cmd.Parameters.AddWithValue("@Titulo", filme.Titulo);
+
 
                     // Abre a conexão com o banco de dados
                     con.Open();
@@ -90,7 +91,7 @@ namespace senai.Filmes.WebApi.Repositories
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
                 // Declara a query que será executada
-                string querySelectById = "SELECT Idfilme, Nome FROM filme WHERE Idfilme = @ID";
+                string querySelectById = "SELECT IdFilme, Titulo FROM Filmes WHERE IdFilme = @ID";
 
                 // Abre a conexão com o banco de dados
                 con.Open();
@@ -114,11 +115,11 @@ namespace senai.Filmes.WebApi.Repositories
                         FilmeDomain filmeBuscado = new FilmeDomain
                         {
                             // Atribui à propriedade Idfilme o valor da coluna "Idfilme" da tabela do banco
-                            IdFilme = Convert.ToInt32(rdr["Idfilme"])
+                            IdFilme = Convert.ToInt32(rdr["IdFilme"])
 
                             // Atribui à propriedade Nome o valor da coluna "Nome" da tabela do banco
                             ,
-                            Titulo = rdr["Nome"].ToString()
+                            Titulo = rdr["Titulo"].ToString()
                         };
 
                         // Retorna o filme com os dados obtidos
@@ -150,7 +151,7 @@ namespace senai.Filmes.WebApi.Repositories
                 // https://www.devmedia.com.br/sql-injection/6102
 
                 // Declara a query que será executada passando o valor como parâmetro, evitando assim os problemas acima
-                string queryInsert = "INSERT INTO filme(Titulo) VALUES (@Nome)";
+                string queryInsert = "INSERT INTO Filmes(Titulo) VALUES (@Titulo)";
 
                 // Declara o comando passando a query e a conexão
                 SqlCommand cmd = new SqlCommand(queryInsert, con);
